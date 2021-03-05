@@ -1,0 +1,90 @@
+.footer {
+    background-color: #222222;
+    
+    overflow: hidden;
+    h3 {
+        color: #666666;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding: 40px 0;
+}
+
+.footer__aboutus {
+    width: 285px;
+    img  {
+        border: 1px solid#666666;
+        padding: 3px;
+    }
+    p {
+        color: #666666;
+    }
+    a {
+        color: #7c9c37;
+    }
+}
+
+.footer__linkblock {
+    width: 285px;
+    hr {
+        background-color: #666666;
+        margin: 3px 0;
+    }
+    a {
+        color: #7c9c37;
+    }
+}
+.footer__blog {
+    width: 285px;
+    color: #666666;
+    a {
+        color: #7c9c37;
+    }
+}
+.footer__contactus {
+    width: 285px;
+    address {
+        color: #666666;
+        span {
+            color: #7c9c37;
+        }
+    }
+    form {
+        input[type=text],input[type=email] {
+            background-color: #353535;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            padding: 7px;
+            margin-bottom: 10px;
+        }
+        input[type=submit] {
+            background-color: #7c9c37;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: #f1f1f1;
+        }
+    }
+}
+.footer_hr {
+    background-color: #000;
+    margin: 0;
+}
+.comyright {
+    color: #666666;
+    padding: 20px 0;
+    display: flex;
+    .cp_right {
+        width: 50%;
+    }
+    .cp_left {
+        width: 50%;
+        text-align: end;
+    }
+}

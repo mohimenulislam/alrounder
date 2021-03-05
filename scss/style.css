@@ -291,4 +291,117 @@ p {
 .porrtfolio__right__bottom a {
   color: #7c9c37;
 }
+
+.footer {
+  background-color: #222222;
+  overflow: hidden;
+}
+
+.footer h3 {
+  color: #666666;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  padding: 40px 0;
+}
+
+.footer__aboutus {
+  width: 285px;
+}
+
+.footer__aboutus img {
+  border: 1px solid #666666;
+  padding: 3px;
+}
+
+.footer__aboutus p {
+  color: #666666;
+}
+
+.footer__aboutus a {
+  color: #7c9c37;
+}
+
+.footer__linkblock {
+  width: 285px;
+}
+
+.footer__linkblock hr {
+  background-color: #666666;
+  margin: 3px 0;
+}
+
+.footer__linkblock a {
+  color: #7c9c37;
+}
+
+.footer__blog {
+  width: 285px;
+  color: #666666;
+}
+
+.footer__blog a {
+  color: #7c9c37;
+}
+
+.footer__contactus {
+  width: 285px;
+}
+
+.footer__contactus address {
+  color: #666666;
+}
+
+.footer__contactus address span {
+  color: #7c9c37;
+}
+
+.footer__contactus form input[type=text], .footer__contactus form input[type=email] {
+  background-color: #353535;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.footer__contactus form input[type=submit] {
+  background-color: #7c9c37;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #f1f1f1;
+}
+
+.footer_hr {
+  background-color: #000;
+  margin: 0;
+}
+
+.comyright {
+  color: #666666;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comyright .cp_right {
+  width: 50%;
+}
+
+.comyright .cp_left {
+  width: 50%;
+  text-align: end;
+}
 /*# sourceMappingURL=style.css.map */
